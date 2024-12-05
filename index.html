@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+      .manrope-font {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      .montagu-font {
+        font-family: "Montagu Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      }
+    </style>
+  </head>
+
+  <body class="bg-[#000000]">
+    <!-- header start -->
+    <header class="space-y-[150px]">
+      <section class="border-b-[1px] border-[#1C1C21] border-">
+        <div class="container mx-auto py-[30px] px-[40px] flex justify-between">
+          <div>
+            <h1 class="manrope-font text-[#FFFFFF] text-4xl">LOGO</h1>
+          </div>
+          <div class="manrope-font flex text-center items-center gap-10">
+            <ul class="text-[#FFFFFF] flex gap-10 font-normal text-xl">
+              <li>Home</li>
+              <li>About Me</li>
+              <li>Projects</li>
+              <li>Testimonials</li>
+            </ul>
+            <button
+              class="bg-[#E6AA32] w-[188px] h-[52px] text-xl rounded-[53px]"
+            >
+              Downlaod CV
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- header end -->
+
+      <!-- banner satrt -->
+      <section class="pl-52 flex items-end justify-between gap-[82px]">
+        <div>
+          <div class="space-y-5">
+            <p class="manrope-font text-[#797C86] font-normal text-xl">
+              Web Developer
+            </p>
+            <h1 class="montagu-font text-[#FFFFFF] text-5xl">HI! This is</h1>
+            <h1 class="montagu-font text-[#E6AA32] text-5xl">Zahid Hossain</h1>
+            <p class="manrope-font text-[#797C86] text-xl">
+              As a web designer with four years of experience, I specialize in
+              creating visually appealing and user-friendly websites. My
+              expertise includes responsive design, UI/UX principles, and
+              collaborating with clients to bring their visions to life.
+            </p>
+            <div class="manrope-font flex gap-5">
+              <button
+                class="bg-[#E6AA32] w-[188px] h-[48px] rounded-[53px] border-[1px] border-[#FFFFFF4D]"
+              >
+                Let’s Connect
+              </button>
+              <button class="text-[#E6E6E6] flex gap-5 items-center">
+                View Portfolios
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-10"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="relative w-full h-full">
+          <img class="absolute bottom-0" src="./image/banner.png" />
+          <div
+            class="w-full h-[343px] rounded-tl-[147px] bg-gradient-to-r from-[#17171A00] to-[#17171A]"
+          ></div>
+        </div>
+      </section>
+      <!-- banner end -->
+    </header>
+
+    <main>
+      <!-- Specialties start -->
+      <section class="container mx-auto">
+        <div class="pt-32">
+          <div class="flex flex-col items-center justify-center space-y-5">
+            <div>
+              <p class="manrope-font text-[#797C86] text-xl">SPECIALTIES</p>
+            </div>
+            <div>
+              <h1 class="manrope-font text-[#FFFFFF] text-4xl">
+                MY SPECIALTIES
+              </h1>
+            </div>
+            <div>
+              <p class="manrope-font text-[#797C86] text-center">
+                As a web designer with four years of experience, I specialize in
+                creating visually appealing<br />
+                and user-friendly websites. My expertise includes responsive
+                design.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="pt-20">
+          <div class="grid grid-cols-4 gap-[20px]">
+            <div
+              class="py-[48px] px-[30px] flex flex-col items-center space-y-3 bg-gradient-to-r from-[#0E0E10] to-[#17171A3B]"
+            >
+              <img src="./image/Specialties/front-end.png" />
+              <h1 class="manrope-font text-[#E6E6E6]">Front-End Development</h1>
+              <p class="manrope-font font-normal text-center text-[#E6E6E682]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+            <div
+              class="py-[48px] px-[30px] flex flex-col items-center space-y-3 bg-gradient-to-r from-[#0E0E10] to-[#17171A3B]"
+            >
+              <img src="./image/Specialties/back-end.png" />
+              <h1 class="manrope-font text-[#E6E6E6]">Back-End Development</h1>
+              <p class="manrope-font font-normal text-center text-[#E6E6E682]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+            <div
+              class="py-[48px] px-[30px] flex flex-col items-center space-y-3 bg-gradient-to-r from-[#0E0E10] to-[#17171A3B]"
+            >
+              <img src="./image/Specialties/full-stack.png" />
+              <h1 class="manrope-font text-[#E6E6E6]">
+                Full-Stack Development
+              </h1>
+              <p class="manrope-font font-normal text-center text-[#E6E6E682]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+            <div
+              class="py-[48px] px-[30px] flex flex-col items-center space-y-3 bg-gradient-to-r from-[#0E0E10] to-[#17171A3B]"
+            >
+              <img src="./image/Specialties/web application security.png" />
+              <h1 class="manrope-font text-[#E6E6E6]">
+                Web Application Security
+              </h1>
+              <p class="manrope-font font-normal text-center text-[#E6E6E682]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+            <div
+              class="py-[48px] px-[30px] flex flex-col items-center space-y-3 bg-gradient-to-r from-[#0E0E10] to-[#17171A3B]"
+            >
+              <img src="./image/Specialties/e-commerce.png" />
+              <h1 class="manrope-font text-[#E6E6E6]">
+                E-commerce Development
+              </h1>
+              <p class="manrope-font font-normal text-center text-[#E6E6E682]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+            <div
+              class="py-[48px] px-[30px] flex flex-col items-center space-y-3 bg-gradient-to-r from-[#0E0E10] to-[#17171A3B]"
+            >
+              <img src="./image/Specialties/cloud-based.png" />
+              <h1 class="manrope-font text-[#E6E6E6]">
+                Cloud-Based Development
+              </h1>
+              <p class="manrope-font font-normal text-center text-[#E6E6E682]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+            <div
+              class="py-[48px] px-[30px] flex flex-col items-center space-y-3 bg-gradient-to-r from-[#0E0E10] to-[#17171A3B]"
+            >
+              <img src="./image/Specialties/progressive web apps.png" />
+              <h1 class="manrope-font text-[#E6E6E6]">Progressive Web Apps</h1>
+              <p class="manrope-font font-normal text-center text-[#E6E6E682]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+            <div
+              class="py-[48px] px-[30px] flex flex-col items-center space-y-3 bg-gradient-to-r from-[#0E0E10] to-[#17171A3B]"
+            >
+              <img src="./image/Specialties/ai-powered.png" />
+              <h1 class="manrope-font text-[#E6E6E6]">
+                AI-Powered Development
+              </h1>
+              <p class="manrope-font font-normal text-center text-[#E6E6E682]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Specialties end -->
+
+      <!-- recent works start -->
+      <section class="container mx-auto">
+        <div>
+          <div
+            class="flex flex-col items-center justify-center space-y-5 pt-32"
+          >
+            <p class="manrope-font text-[#797C86] text-xl">RECENT WORKS</p>
+            <h1 class="manrope-font text-[#FFFFFF] text-5xl">
+              MY RECENT WORKS
+            </h1>
+            <p class="manrope-font font-normal text-center text-[#797C86]">
+              As a web designer with four years of experience, I specialize in
+              creating<br />
+              visually appealing and user-friendly websites. My expertise
+              includes<br />
+              responsive design.
+            </p>
+          </div>
+          <div class="grid grid-cols-3 gap-x-8 gap-y-8 pt-20">
+            <div>
+              <img src="./image/recent work/image 36.png" />
+            </div>
+            <div>
+              <img src="./image/recent work/image 36.png" />
+            </div>
+            <div>
+              <img src="./image/recent work/image 36.png" />
+            </div>
+            <div>
+              <img src="./image/recent work/image 36.png" />
+            </div>
+            <div>
+              <img src="./image/recent work/image 36.png" />
+            </div>
+            <div>
+              <img src="./image/recent work/image 36.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- recent works end -->
+
+      <!-- Services start -->
+      <section class="container mx-auto">
+        <div>
+          <div
+            class="flex flex-col items-center justify-center space-y-5 pt-32"
+          >
+            <p class="manrope-font text-[#797C86] text-xl">SERVICES</p>
+            <h1 class="manrope-font text-[#FFFFFF] text-5xl">
+              My OTHER SERVICES
+            </h1>
+            <p class="manrope-font text-[#797C86] font-normal text-center">
+              As a web designer with four years of experience, I specialize in
+              creating visually appealing<br />
+              and user-friendly websites. My expertise includes responsive
+              design.
+            </p>
+          </div>
+        </div>
+        <div class="grid grid-cols-4 gap-[20px] pt-20">
+          <div
+            class="border-[1px] border-[#1C1C21] rounded-[8px] px-[24px] py-[48px] gap-[16px] flex flex-col items-center bg-gradient-to-r from-[#17171A3B] to-[#0E0E10]"
+          >
+            <h1 class="manrope-font text-[#E6E6E6]">WEBSITE DEVELOPMENT</h1>
+            <p class="manrope-font text-center text-[#E6E6E682]">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <div
+            class="border-[1px] border-[#1C1C21] rounded-[8px] px-[24px] py-[48px] gap-[16px] flex flex-col items-center bg-gradient-to-r from-[#17171A3B] to-[#0E0E10]"
+          >
+            <h1 class="manrope-font text-[#E6E6E6]">E-Commerce Development</h1>
+            <p class="manrope-font text-center text-[#E6E6E682]">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <div
+            class="border-[1px] border-[#1C1C21] rounded-[8px] px-[24px] py-[48px] gap-[16px] flex flex-col items-center bg-gradient-to-r from-[#17171A3B] to-[#0E0E10]"
+          >
+            <h1 class="manrope-font text-[#E6E6E6]">Web App Development</h1>
+            <p class="manrope-font text-center text-[#E6E6E682]">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <div
+            class="border-[1px] border-[#1C1C21] rounded-[8px] px-[24px] py-[48px] gap-[16px] flex flex-col items-center bg-gradient-to-r from-[#17171A3B] to-[#0E0E10]"
+          >
+            <h1 class="manrope-font text-[#E6E6E6]">API Dev. & Integration</h1>
+            <p class="manrope-font text-center text-[#E6E6E682]">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <div
+            class="border-[1px] border-[#1C1C21] rounded-[8px] px-[24px] py-[48px] gap-[16px] flex flex-col items-center bg-gradient-to-r from-[#17171A3B] to-[#0E0E10]"
+          >
+            <h1 class="manrope-font text-[#E6E6E6]">Cloud-Based Solutions</h1>
+            <p class="manrope-font text-center text-[#E6E6E682]">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <div
+            class="border-[1px] border-[#1C1C21] rounded-[8px] px-[24px] py-[48px] gap-[16px] flex flex-col items-center bg-gradient-to-r from-[#17171A3B] to-[#0E0E10]"
+          >
+            <h1 class="manrope-font text-[#E6E6E6]">
+              Web Perform. Optimization
+            </h1>
+            <p class="manrope-font text-center text-[#E6E6E682]">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <div
+            class="border-[1px] border-[#1C1C21] rounded-[8px] px-[24px] py-[48px] gap-[16px] flex flex-col items-center bg-gradient-to-r from-[#17171A3B] to-[#0E0E10]"
+          >
+            <h1 class="manrope-font text-[#E6E6E6]">(SEO) Services</h1>
+            <p class="manrope-font text-center text-[#E6E6E682]">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <div
+            class="border-[1px] border-[#1C1C21] rounded-[8px] px-[24px] py-[48px] gap-[16px] flex flex-col items-center bg-gradient-to-r from-[#17171A3B] to-[#0E0E10]"
+          >
+            <h1 class="manrope-font text-[#E6E6E6]">
+              Website Maint. & Support
+            </h1>
+            <p class="manrope-font text-center text-[#E6E6E682]">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Services end -->
+
+      <!-- faq start -->
+      <section class="container mx-auto pt-28">
+        <div>
+          <div class="space-y-5 pb-[50px]">
+            <p class="manrope-font text-[#797C86] text-xl">FAQ’s</p>
+            <h1 class="manrope-font text-[#FFFFFF] text-5xl">
+              FREQUENTLY ASKED QUESTIONS
+            </h1>
+          </div>
+          <div class="border-[1px] border-[#1C1C21]"></div>
+        </div>
+        <div
+          class="flex items-center justify-between border-b-[1px] border-[#1C1C21] px-[50px] py-[30px]"
+        >
+          <div class="space-y-5">
+            <h1 class="manrope-font font-bold text-[#AFB0B6]">
+              WHAT AREAS OF WEB DEVELOPMENT DO YOU FOCUS ON?
+            </h1>
+            <p class="manrope-font font-normal text-[#797C86]">
+              I specialize in web development, creating websites that deliver
+              unique user experiences.
+            </p>
+          </div>
+          <div
+            class="border-[#1C1C21] text-[#FFFFFF] border-[1px] rounded-full p-[14px]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 15.75 7.5-7.5 7.5 7.5"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-between border-b-[1px] border-[#1C1C21] px-[50px] py-[30px]"
+        >
+          <div>
+            <h1 class="manrope-font font-bold text-[#AFB0B6]">
+              HOW CAN I SCHEDULE A WEB DEVELOPMENT CONSULTATION WITH YOU?
+            </h1>
+          </div>
+          <div
+            class="border-[#1C1C21] text-[#FFFFFF] border-[1px] rounded-full p-[14px]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-between border-b-[1px] border-[#1C1C21] px-[50px] py-[30px]"
+        >
+          <div>
+            <h1 class="manrope-font font-bold text-[#AFB0B6]">
+              CAN I CHOOSE A SPECIFIC PLATFORM FOR MY WEBSITE?
+            </h1>
+          </div>
+          <div
+            class="border-[#1C1C21] text-[#FFFFFF] border-[1px] rounded-full p-[14px]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-between border-b-[1px] border-[#1C1C21] px-[50px] py-[30px]"
+        >
+          <div>
+            <h1 class="manrope-font font-bold text-[#AFB0B6]">
+              WHAT TOOLS AND TECHNOLOGIES DO YOU USE FOR WEB DEVELOPMENT?
+            </h1>
+          </div>
+          <div
+            class="border-[#1C1C21] text-[#FFFFFF] border-[1px] rounded-full p-[14px]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="flex items-center justify-between px-[50px] py-[30px]">
+          <div>
+            <h1 class="manrope-font font-bold text-[#AFB0B6]">
+              CAN I CHOOSE A SPECIFIC PLATFORM FOR MY WEBSITE?
+            </h1>
+          </div>
+          <div
+            class="border-[#1C1C21] text-[#FFFFFF] border-[1px] rounded-full p-[14px]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <!-- faq end -->
+    </main>
+
+    <!-- footer start -->
+    <footer class="pt-20">
+      <section class="border-t-[1px] border-[#1C1C21] border-b-[1px] pb-10">
+        <div class="container mx-auto flex justify-around pt-10">
+          <div class="manrope-font text-white p-6">
+            <h2 class="text-[#797C86] font-semibold mb-4">CUSTOMERS</h2>
+            <ul class="space-y-3">
+              <li class="border-b border-[#2F2F37] pb-2">GLINTOPIA</li>
+              <li class="border-b border-[#2F2F37] pb-2">FLUXWAY</li>
+              <li class="border-b border-[#2F2F37] pb-2">FABLE'S</li>
+              <li class="border-b border-[#2F2F37] pb-2">POWERCORE</li>
+            </ul>
+          </div>
+          <div class="manrope-font text-white p-6">
+            <h2 class="text-[#797C86] font-semibold mb-4">CUSTOMERS</h2>
+            <ul class="space-y-3">
+              <li class="border-b border-[#2F2F37] pb-2">GLINTOPIA</li>
+              <li class="border-b border-[#2F2F37] pb-2">FLUXWAY</li>
+              <li class="border-b border-[#2F2F37] pb-2">FABLE'S</li>
+              <li class="border-b border-[#2F2F37] pb-2">POWERCORE</li>
+            </ul>
+          </div>
+          <div class="manrope-font text-white p-6">
+            <h2 class="text-[#797C86] font-semibold mb-4">CUSTOMERS</h2>
+            <ul class="space-y-3">
+              <li class="border-b border-[#2F2F37] pb-2">GLINTOPIA</li>
+              <li class="border-b border-[#2F2F37] pb-2">FLUXWAY</li>
+              <li class="border-b border-[#2F2F37] pb-2">FABLE'S</li>
+              <li class="border-b border-[#2F2F37] pb-2">POWERCORE</li>
+            </ul>
+          </div>
+          <div class="manrope-font text-white p-6">
+            <h2 class="text-[#797C86] font-semibold mb-4">CUSTOMERS</h2>
+            <ul class="space-y-3">
+              <li class="border-b border-[#2F2F37] pb-2">GLINTOPIA</li>
+              <li class="border-b border-[#2F2F37] pb-2">FLUXWAY</li>
+              <li class="border-b border-[#2F2F37] pb-2">FABLE'S</li>
+              <li class="border-b border-[#2F2F37] pb-2">POWERCORE</li>
+            </ul>
+          </div>
+          <div class="manrope-font text-white p-6">
+            <h2 class="text-[#797C86] font-semibold mb-4">CUSTOMERS</h2>
+            <ul class="space-y-3">
+              <li class="border-b border-[#2F2F37] pb-2">GLINTOPIA</li>
+              <li class="border-b border-[#2F2F37] pb-2">FLUXWAY</li>
+              <li class="border-b border-[#2F2F37] pb-2">FABLE'S</li>
+              <li class="border-b border-[#2F2F37] pb-2">POWERCORE</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="container mx-auto">
+        <div class="flex items-center justify-around">
+          <div
+            class="manrope-font text-[#797C86] flex justify-center items-center pt-8 pb-8"
+          >
+            <h1>Terms & Conditions</h1>
+            <span class="mx-4 border-l border-[#1C1C21] h-5"></span>
+            <h1>Privacy Policy</h1>
+          </div>
+          <div class="manrope-font text-[#797C86]">
+            <h1>© 2024 All rights reserved.</h1>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
